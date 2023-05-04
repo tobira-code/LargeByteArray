@@ -1,5 +1,5 @@
 # LargeByteArray
-LargeByteArray treats Large File like ByteBuffer
+LargeByteArray treats Large File like ByteArray
 
 # Sample
 
