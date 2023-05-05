@@ -9,13 +9,7 @@ java {
     targetCompatibility = JavaVersion.VERSION_1_7
 }
 
-jar {
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-    from { configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
-}
-
 dependencies {
     testImplementation 'junit:junit:4.12'
-    testImplementation "io.mockk:mockk:1.11.0"
     testImplementation 'io.kotlintest:kotlintest:2.0.7'
 }
