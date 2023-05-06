@@ -135,11 +135,6 @@ class LargeByteArrayImpl private constructor(
 
     companion object {
         /**
-         * [LargeByteArrayImpl]のバージョン
-         */
-        const val VERSION = "0.1.0"
-
-        /**
          *  DebugPrintを有効にする
          *
          * @param [enable] : true:DebugPrintを有効にする、false:無効にする(初期値)

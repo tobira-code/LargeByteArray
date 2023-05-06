@@ -44,11 +44,4 @@ interface LargeByteArray : AutoCloseable {
      * @param range : 指定可能な範囲は 0 から length-1
      */
     operator fun get(range: LongRange): ByteArray
-
-    companion object {
-        /**
-         * [LargeByteArray]のバージョン
-         */
-        const val VERSION = "0.1.0"
-    }
 }
