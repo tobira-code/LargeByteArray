@@ -48,7 +48,7 @@ class LargeByteArrayTestImpl {
             content = byteArrayOf(1, 2, 3),
             cacheSize = 2
         ) { largeByteArray ->
-            largeByteArray.length shouldBe 3L
+            largeByteArray.size shouldBe 3L
             largeByteArray[0] shouldBe 1.toByte()
             largeByteArray[1] shouldBe 2.toByte()
             largeByteArray[2] shouldBe 3.toByte()
@@ -65,7 +65,7 @@ class LargeByteArrayTestImpl {
             content = byteArrayOf(1, 2),
             cacheSize = 2
         ) { largeByteArray ->
-            largeByteArray.length shouldBe 2L
+            largeByteArray.size shouldBe 2L
             largeByteArray[0] shouldBe 1.toByte()
             largeByteArray[1] shouldBe 2.toByte()
             largeByteArray.hasError shouldBe false
@@ -80,7 +80,7 @@ class LargeByteArrayTestImpl {
             content = byteArrayOf(1, 2),
             cacheSize = 3
         ) { largeByteArray ->
-            largeByteArray.length shouldBe 2L
+            largeByteArray.size shouldBe 2L
             largeByteArray[0] shouldBe 1.toByte()
             largeByteArray[1] shouldBe 2.toByte()
             largeByteArray.hasError shouldBe false
@@ -95,7 +95,7 @@ class LargeByteArrayTestImpl {
             content = byteArrayOf(1, 2, 3, 4, 5),
             cacheSize = 2
         ) { largeByteArray ->
-            largeByteArray.length shouldBe 5L
+            largeByteArray.size shouldBe 5L
             largeByteArray[0..1L] shouldBe byteArrayOf(1, 2)
             largeByteArray[2..4L] shouldBe byteArrayOf(3, 4, 5)
             largeByteArray[0..1L] shouldBe byteArrayOf(1, 2)
@@ -115,7 +115,7 @@ class LargeByteArrayTestImpl {
             cacheSize = 1024 * 1024 * 128,
             repeatCount = repeatCount
         ) { largeByteArray ->
-            largeByteArray.length shouldBe (content.size.toLong() * repeatCount.toLong())
+            largeByteArray.size shouldBe (content.size.toLong() * repeatCount.toLong())
             ByteArray(content.size).also { readByteArray ->
                 var idx = 0L
                 val crcOfLargeByteArray = CRC32()
@@ -143,7 +143,7 @@ class LargeByteArrayTestImpl {
             cacheSize = 1024 * 1024 * 128,
             repeatCount = repeatCount
         ) { largeByteArray ->
-            largeByteArray.length shouldBe (content.size.toLong() * repeatCount.toLong())
+            largeByteArray.size shouldBe (content.size.toLong() * repeatCount.toLong())
             ByteArray(content.size).also { readByteArray ->
                 var idx = 0L
                 val crcOfLargeByteArray = CRC32()

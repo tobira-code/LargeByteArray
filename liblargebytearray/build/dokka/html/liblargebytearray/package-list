@@ -5,8 +5,8 @@ $dokka.location:com.tobira.code.liblargebytearray/LargeByteArray///PointingToDec
 $dokka.location:com.tobira.code.liblargebytearray/LargeByteArray/get/#kotlin.Long/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array/get.html
 $dokka.location:com.tobira.code.liblargebytearray/LargeByteArray/get/#kotlin.ranges.LongRange/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array/get.html
 $dokka.location:com.tobira.code.liblargebytearray/LargeByteArray/hasError/#/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array/has-error.html
-$dokka.location:com.tobira.code.liblargebytearray/LargeByteArray/length/#/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array/length.html
 $dokka.location:com.tobira.code.liblargebytearray/LargeByteArray/readOnly/#/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array/read-only.html
+$dokka.location:com.tobira.code.liblargebytearray/LargeByteArray/size/#/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array/size.html
 $dokka.location:com.tobira.code.liblargebytearray/LargeByteArrayImpl.Companion///PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array-impl/-companion/index.html
 $dokka.location:com.tobira.code.liblargebytearray/LargeByteArrayImpl.Companion/create/#java.io.File#com.tobira.code.liblargebytearray.LargeByteArrayImpl.Property/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array-impl/-companion/create.html
 $dokka.location:com.tobira.code.liblargebytearray/LargeByteArrayImpl.Companion/create/#java.io.RandomAccessFile#com.tobira.code.liblargebytearray.LargeByteArrayImpl.Property/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array-impl/-companion/create.html
@@ -21,8 +21,8 @@ $dokka.location:com.tobira.code.liblargebytearray/LargeByteArrayImpl/close/#/Poi
 $dokka.location:com.tobira.code.liblargebytearray/LargeByteArrayImpl/get/#kotlin.Long/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array-impl/get.html
 $dokka.location:com.tobira.code.liblargebytearray/LargeByteArrayImpl/get/#kotlin.ranges.LongRange/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array-impl/get.html
 $dokka.location:com.tobira.code.liblargebytearray/LargeByteArrayImpl/hasError/#/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array-impl/has-error.html
-$dokka.location:com.tobira.code.liblargebytearray/LargeByteArrayImpl/length/#/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array-impl/length.html
 $dokka.location:com.tobira.code.liblargebytearray/LargeByteArrayImpl/readOnly/#/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array-impl/read-only.html
+$dokka.location:com.tobira.code.liblargebytearray/LargeByteArrayImpl/size/#/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-large-byte-array-impl/size.html
 $dokka.location:com.tobira.code.liblargebytearray/Version///PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-version/index.html
 $dokka.location:com.tobira.code.liblargebytearray/Version/IMPLEMENTATION_VERSION/#/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-version/-i-m-p-l-e-m-e-n-t-a-t-i-o-n_-v-e-r-s-i-o-n.html
 $dokka.location:com.tobira.code.liblargebytearray/Version/INTERFACE_VERSION/#/PointingToDeclaration/liblargebytearray/com.tobira.code.liblargebytearray/-version/-i-n-t-e-r-f-a-c-e_-v-e-r-s-i-o-n.html

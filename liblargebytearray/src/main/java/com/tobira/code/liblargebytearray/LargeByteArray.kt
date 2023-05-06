@@ -7,23 +7,27 @@ interface LargeByteArray : AutoCloseable {
     /**
      * 読み取り専用かどうかをあらわす
      *
-     * true:読み取り専用<br>
-     * false:書き込み可能<br>
+     * ```
+     * true:読み取り専用
+     * false:書き込み可能
+     * ```
      */
     val readOnly: Boolean
 
     /**
      * [LargeByteArray]のバイト数
      */
-    val length: Long
+    val size: Long
 
     /**
      * エラーが発生したかどうかをあらわす
      *
-     * true:エラーが発生した<br>
-     * false:エラーが発生していない<br>
-     * エラーが発生した場合は読みだしたデータが正しくない可能性があるため、破棄すること<br>
-     * エラーが発生した後に[hasError]=trueにすることはできないため[LargeByteArray]をつくりなおすこと<br>
+     * ```
+     * true:エラーが発生した
+     * false:エラーが発生していない
+     * エラーが発生した場合は読みだしたデータが正しくない可能性があるため、破棄すること
+     * エラーが発生した後にhasError=trueにすることはできないためLargeByteArrayをつくりなおすこと
+     * ```
      */
     val hasError: Boolean
 
@@ -32,7 +36,7 @@ interface LargeByteArray : AutoCloseable {
      *
      * 範囲外にアクセスすると[hasError]=trueとなる
      *
-     * @param index : 指定可能な範囲は 0 から length-1
+     * @param index : 指定可能な範囲は 0 から size-1
      */
     operator fun get(index: Long): Byte
 
@@ -41,7 +45,7 @@ interface LargeByteArray : AutoCloseable {
      *
      * 範囲外にアクセスすると[hasError]=trueとなる
      *
-     * @param range : 指定可能な範囲は 0 から length-1
+     * @param range : 指定可能な範囲は 0 から size-1
      */
     operator fun get(range: LongRange): ByteArray
 }

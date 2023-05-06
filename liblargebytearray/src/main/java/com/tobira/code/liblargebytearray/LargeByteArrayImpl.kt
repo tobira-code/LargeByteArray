@@ -32,7 +32,7 @@ class LargeByteArrayImpl private constructor(
 ) : LargeByteArray {
 
     override val readOnly: Boolean = true
-    override val length get() = fileLength
+    override val size get() = fileLength
     override val hasError get() = _hasError
 
     /**
@@ -107,7 +107,7 @@ class LargeByteArrayImpl private constructor(
     }
 
     private fun updateCache(index: Long) {
-        val cacheSize = minOf(length - index, property.cacheSize)
+        val cacheSize = minOf(size - index, property.cacheSize)
         if (cacheSize <= 0) return
         try {
             randomAccessFile.seek(index)
@@ -124,7 +124,7 @@ class LargeByteArrayImpl private constructor(
         if (DEBUG_ENABLED) {
             print("[D] $tag : $message ")
             print("randomAccessFile=$randomAccessFile ")
-            print("length=$length ")
+            print("size=$size ")
             print("_fileRange=$_fileRange ")
             print("cache=$cache ")
             print("cacheRange=$cacheRange ")
